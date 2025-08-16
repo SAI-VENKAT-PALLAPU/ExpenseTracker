@@ -30,9 +30,10 @@ ExpenseTracker/
    git clone https://github.com/SAI-VENKAT-PAPPAPU/ExpenseTracker.git
    cd ExpenseTracker
 
+##
 2.  Install dependencies:
    pip install -r requirements.txt
-
+##
 3.Run the application:
   python expense_tracker_gui.py
 
