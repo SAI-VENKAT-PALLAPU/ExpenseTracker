@@ -4,7 +4,6 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import matplotlib.pyplot as plt
 
-
 # ---------------- Database Setup ---------------- #
 def init_db():
     conn = sqlite3.connect("expenses.db")
@@ -131,3 +130,4 @@ tk.Button(root, text="Show Summary", command=show_summary, bg="blue", fg="white"
 load_expenses()
 
 root.mainloop()
+
